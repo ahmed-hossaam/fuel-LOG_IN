@@ -83,20 +83,19 @@ body {
     border-color: #000000;
 }
 
-.submit-btn {
-    width: 103%;
+#login-btn {
+    width: 100%;
     padding: 12px;
+    display: block;
     font-size: 1.2rem;
     color: white;
     background:#007bff;
     border: none;
     transition-duration: 0.3s;
+    text-decoration: none;
+    text-align: center;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.submit-btn:hover {
-    background: #0056b3;
 }
 
 .right p {
